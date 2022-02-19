@@ -16,7 +16,7 @@ public class OrderController {
 
     @RequestMapping("add")
     public String add(){
-        String msg = restTemplate.getForObject("http://stockNacos/stock/reduce", String.class);
+        String msg = restTemplate.getForObject("http://stock-service/stock/reduce", String.class);
         return "over:"+msg;
     }
 }
