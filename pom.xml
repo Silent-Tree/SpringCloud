@@ -8,6 +8,7 @@
         <module>order-nacos</module>
         <module>stock2-nacos</module>
         <module>order-openFeign</module>
+        <module>nacos-config</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
