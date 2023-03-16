@@ -1,11 +1,12 @@
-package com.stock;
+package com.nacos.config;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class StockOneApplication {
+public class NacosConfigApplication {
+
     public static void main(String[] args) {
-        SpringApplication.run(StockOneApplication.class,args);
+        SpringApplication.run(NacosConfigApplication.class,args);
     }
 }

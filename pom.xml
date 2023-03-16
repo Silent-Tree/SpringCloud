@@ -4,11 +4,12 @@
     <modelVersion>4.0.0</modelVersion>
     <modules>
         <module>order</module>
-        <module>stock1-nacos</module>
+        <module>stock-nacos</module>
         <module>order-nacos</module>
-        <module>stock2-nacos</module>
         <module>order-openFeign</module>
         <module>nacos-config</module>
+        <module>gateway</module>
+        <module>authority</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
