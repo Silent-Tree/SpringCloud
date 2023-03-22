@@ -11,9 +11,12 @@ public class StockController {
     @Value("${server.port}")
     private String port;
 
+    //@Value("${config.name}")
+    private String configName;
+
     @RequestMapping("reduce")
     public String reduce(){
-        System.out.println("reduce stock!"+port);
+        System.out.println("reduce stock!"+configName+"/"+port);
         return "Hello"+port;
     }
 }

@@ -10,6 +10,7 @@
         <module>nacos-config</module>
         <module>gateway</module>
         <module>authority</module>
+        <module>sentinel</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
